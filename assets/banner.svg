@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">月下小舟 · wizawn</title>
+  <desc id="desc">A warm, original Chinese-inspired banner with a crescent moon, lotus and fox silhouette.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="0.55" stop-color="#ffe9d6"/>
+      <stop offset="1" stop-color="#f7c6c9"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bd6d77" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#6b4969" stop-opacity=".92"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#sky)"/>
+  <circle cx="970" cy="82" r="52" fill="#fff4bd" opacity=".95"/>
+  <circle cx="992" cy="67" r="52" fill="#ffe9d6"/>
+  <g fill="#9c5269" opacity=".28">
+    <circle cx="112" cy="66" r="4"/><circle cx="142" cy="42" r="3"/><circle cx="182" cy="78" r="5"/>
+    <circle cx="764" cy="44" r="4"/><circle cx="812" cy="72" r="3"/><circle cx="846" cy="38" r="5"/>
+  </g>
+  <g fill="none" stroke="#c7777e" stroke-width="4" stroke-linecap="round" opacity=".55">
+    <path d="M55 111c26-18 52-18 78 0 26 18 52 18 78 0"/>
+    <path d="M75 128c26-18 52-18 78 0 26 18 52 18 78 0"/>
+    <path d="M1030 147c24-16 48-16 72 0 24 16 48 16 72 0"/>
+  </g>
+  <path d="M0 202c130-34 220-22 342 5 120 26 210 22 316-6 124-33 240-21 362 7 74 17 126 16 180 4v88H0z" fill="url(#water)"/>
+  <g fill="none" stroke="#f9d8d0" stroke-width="3" opacity=".55">
+    <path d="M50 244c110-18 190-17 298 0"/><path d="M470 257c110-18 196-17 308 0"/><path d="M846 229c92-14 174-13 260 0"/>
+  </g>
+  <g transform="translate(170 166)">
+    <path d="M0 56c14-30 45-46 83-47 26-1 47 8 62 24 10 11 18 27 22 43H-4z" fill="#553e5c"/>
+    <path d="M38 28 47-9l27 26 31-27 6 39" fill="#553e5c"/>
+    <path d="M60 33c8-7 16-7 24 0" fill="none" stroke="#f9d8d0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="55" cy="25" r="4" fill="#f9d8d0"/><circle cx="91" cy="25" r="4" fill="#f9d8d0"/>
+    <path d="M73 38c5 5 10 5 15 0" fill="none" stroke="#f9d8d0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M132 66c45 5 71-10 89-39-33 21-63 20-89 4" fill="#553e5c"/>
+  </g>
+  <g transform="translate(400 213)" fill="#ffd9a8" stroke="#a55365" stroke-width="3">
+    <path d="M0 29c17-37 38-52 61-52s44 15 61 52z"/>
+    <path d="M16 27c12-20 28-31 45-31s33 11 45 31z" fill="#fff1d2"/>
+    <path d="M61-18c-16 13-30 26-39 44M61-18c16 13 30 26 39 44" fill="none"/>
+  </g>
+  <g fill="#fff0a8" opacity=".9">
+    <circle cx="267" cy="57" r="3"/><circle cx="300" cy="94" r="2"/><circle cx="344" cy="48" r="3"/><circle cx="620" cy="74" r="2"/>
+  </g>
+  <text x="560" y="142" text-anchor="middle" fill="#553e5c" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="42" font-weight="700" letter-spacing="6">WIZAWN</text>
+  <text x="560" y="180" text-anchor="middle" fill="#9c5269" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17" letter-spacing="3">月下写代码 · 小舟载好奇</text>
+  <text x="1110" y="270" text-anchor="end" fill="#ffe9d6" font-family="serif" font-size="19" opacity=".86">山有木兮 · 心有光</text>
+</svg>
